@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    color: white;
+}
+html{
+    background-image: url(/img/fonMain.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body{
+    width: 1000px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.623);
+
+}
+
+/*Логотип*/
+header{
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.logo{
+    width: 26%;
+    padding-left: 15px;
+    margin-right: 45px;
+    margin-right: auto;
+}
+.name{
+    width: 60%;
+}
+
+/*Навигация*/
+nav{
+    margin: auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+}
+nav a{
+    width: 19%;
+ font-size: 1.6em;
+ text-decoration: none;
+ text-align: center;
+ margin: 10px;
+ background-color: rgba(0, 0, 0, 0.664);
+ border-radius: 5px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+/*Основной контент
+_____________________________________________*/
+
+.maincontent{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+/*Боковая навигация по брендам*/
+.brendnav{
+    width: 22%;
+    margin-left: 4px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.brendnav ul{
+    list-style: none;
+    padding-left: 15px;
+}
+.brendnav li{
+    margin: 5px 0 5px 0;
+}
+.brendnav a{
+    font-size: 1.3em;
+    text-decoration: none;
+}
+.brendnav a:hover{
+    text-decoration: underline;
+}
+/*Блок с информацией и обратной связью*/
+
+.topitem{
+    width: 75%;
+    margin: 0 4px 0 4px;
+}
+.maininfo{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.timework{
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: auto;
+    text-align: left;
+}
+h3{
+    margin: 5px 0 10px 0;
+    font-size: 1.6em;
+    text-align: left;
+}
+.timework p{
+    font-size: 1.1em;
+    margin: 2px 0 2px 0;
+}
+.feedback{
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.feedback a{
+    margin: 2px 2px;
+    display: block;
+    font-size: 1.1em;
+    display: table-cell;
+    text-decoration: none;
+}
+.feedback a:hover{
+    text-decoration: underline;
+}
+.feedback img{
+    block-size: 40px;
+}
